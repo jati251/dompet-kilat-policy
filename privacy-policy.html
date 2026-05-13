@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Dompet Kilat</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+        :root {
+            --primary: #4f46e5;
+            --bg: #ffffff;
+            --text-main: #111827;
+            --text-muted: #4b5563;
+            --text-light: #9ca3af;
+            --accent: #f8fafc;
+            --border: #e5e7eb;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 80px 40px;
+        }
+
+        header {
+            margin-bottom: 60px;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            margin-bottom: 16px;
+        }
+
+        .meta { color: var(--text-muted); font-size: 0.95rem; }
+
+        main { display: grid; gap: 40px; }
+
+        section { scroll-margin-top: 100px; }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-main);
+            border-left: 4px solid var(--primary);
+            padding-left: 16px;
+        }
+
+        p { margin-bottom: 16px; color: var(--text-muted); }
+
+        .highlight-box {
+            background-color: var(--accent);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        ul { margin-bottom: 24px; padding-left: 24px; color: var(--text-muted); }
+        li { margin-bottom: 10px; }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-light);
+            font-size: 0.875rem;
+        }
+
+        a { color: var(--primary); text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+
+        @media (max-width: 640px) {
+            .container { padding: 40px 20px; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <div class="meta">
+                <p>Last updated: <strong>May 13, 2026</strong></p>
+                <p>Application: <strong>Dompet Kilat</strong></p>
+            </div>
+        </header>
+
+        <main>
+            <div class="highlight-box">
+                <h3>Zero Data Collection Policy</h3>
+                <p><strong>Dompet Kilat</strong> is built with a "Privacy by Design" philosophy. We do not collect, store, or transmit any of your personal or financial data to our servers. Your data stays exactly where it belongs: <strong>on your device.</strong></p>
+            </div>
+
+            <section>
+                <h2>1. Information We Do NOT Collect</h2>
+                <p>Unlike most financial applications, we do not have access to your data. Specifically, we do not collect:</p>
+                <ul>
+                    <li><strong>Personal Identifiable Information (PII):</strong> We do not ask for your name, email address, phone number, or any other identity markers.</li>
+                    <li><strong>Financial Data:</strong> Your income, expenses, account balances, and transaction history are stored locally on your device's internal storage and are never uploaded to any cloud service by us.</li>
+                    <li><strong>Location Data:</strong> We do not track or request access to your GPS or background location.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>2. Data Storage and Security</h2>
+                <p>All information you enter into the Application is saved locally on your Device using industry-standard encrypted storage (AsyncStorage). </p>
+                <ul>
+                    <li><strong>No Cloud Sync:</strong> We do not provide a cloud synchronization service.</li>
+                    <li><strong>User Control:</strong> You are the sole owner of your data. You can delete all your data at any time by clearing the application storage or uninstalling the app.</li>
+                    <li><strong>Backups:</strong> If you use the "Backup" feature, a JSON file is generated locally. You decide where to share or save this file (e.g., your own Google Drive, email, or local folder). We have no access to these backup files.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Third-Party Services</h2>
+                <p>The Application is built using the Expo framework. While we do not collect data, third-party platforms (like Google Play Store or Apple App Store) may collect basic technical information such as:</p>
+                <ul>
+                    <li>Device model and OS version.</li>
+                    <li>App crash reports and performance diagnostics.</li>
+                    <li>Installation and uninstallation events.</li>
+                </ul>
+                <p>This data is collected by the respective app stores and is subject to their own Privacy Policies.</p>
+            </section>
+
+            <section>
+                <h2>4. Permissions</h2>
+                <p>To provide a better experience, the App may request the following permissions:</p>
+                <ul>
+                    <li><strong>Notifications:</strong> To send you local reminders (set by you).</li>
+                    <li><strong>Storage/Files:</strong> Only when you explicitly choose to Export or Import your data.</li>
+                    <li><strong>Vibration:</strong> For haptic feedback during UI interactions.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Changes to This Policy</h2>
+                <p>We may update our Privacy Policy from time to time. Since we do not collect your email, we cannot notify you personally. We recommend checking this page periodically for any changes.</p>
+            </section>
+
+            <section>
+                <h2>6. Contact Us</h2>
+                <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+                <p>Email: <a href="mailto:jati251@gmail.com">jati251@gmail.com</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Dompet Kilat. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
